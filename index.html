@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <title>ADJ – L'Antre du Joueur · Valmeinier</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=IM+Fell+English:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=2" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="site-header">
+    <div class="logo">
+      <img src="images/logonbg.png" alt="L'Antre du Joueur" class="logo-img" />
+      <div class="logo-text">
+        L'Antre du Joueur
+        <small>Valmeinier · Savoie</small>
+      </div>
+    </div>
+    <nav>
+      <a href="#histoire">Histoire</a>
+      <a href="#jeux">Les Jeux</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#equipe">Équipe</a>
+      <a href="#infos" class="nav-cta">Nous rejoindre</a>
+    </nav>
+    <div class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="accueil">
+    <div class="hero-logo-wrap">
+      <img src="images/logonbg.png" alt="L'Antre du Joueur" class="hero-logo-img" />
+    </div>
+    <p class="hero-sub">
+      Une association unique en France, réunissant des passionnés de jeux de société
+      depuis 2002, nichée à 1&nbsp;900&nbsp;m d'altitude à Valmeinier, en Savoie.
+    </p>
+    <div class="hero-pill">🏔️ Altitude Jeux · 1 900 m · Valmeinier</div>
+  </section>
+
+  <!-- MÉTÉO -->
+  <div class="meteo-bar">
+    <div class="meteo-inner">
+      <div class="meteo-title">
+        <span class="meteo-label">🏔️ Météo Valmeinier</span>
+        <span class="meteo-alt">1 900 m · En temps réel</span>
+      </div>
+      <div class="meteo-current" id="meteo-current">
+        <span class="meteo-loading">Chargement…</span>
+      </div>
+      <div class="meteo-forecast" id="meteo-forecast"></div>
+      <a href="https://www.valmeinier.com/" target="_blank" rel="noopener" class="meteo-source">valmeinier.com →</a>
+    </div>
+  </div>
+
+  <!-- HISTOIRE -->
+  <section id="histoire">
+    <div class="container">
+      <h2 class="section-title reveal">L'Antre du <em>Joueur</em></h2>
+      <div class="histoire-grid">
+        <div class="histoire-text reveal">
+          <p><strong>L'Antre du Joueur</strong> est une structure ludique œuvrant pour le jeu de société, créée en 2002 par Stéphane Burgunder. Elle est née d'une conviction simple : le jeu rassemble, enrichit, et crée des liens durables entre les personnes.</p>
+          <p>Ouverte <strong>aux enfants comme aux adultes</strong>, l'association accueille ses membres dans un cadre champêtre exceptionnel, en montagne, à 1&nbsp;900 mètres d'altitude. Valmeinier, station savoyarde au charme authentique, est bien plus qu'un décor : c'est une partie intégrante de l'identité de l'ADJ.</p>
+          <p>L'association compte aujourd'hui <strong>des centaines de joueurs à travers toute la France</strong>, unis par leur amour des jeux de société dans tous leurs styles. La ludothèque de l'ADJ est l'une des plus riches et des plus éclectiques de France.</p>
+          <p>Chaque séjour est une fête : des appartements transformés en salles de jeux, accessibles toute la journée et en soirée, au sein de la résidence <strong>Les Hauts de Valmeinier</strong>.</p>
+        </div>
+        <div class="reveal">
+          <div class="histoire-image-wrap">
+            <!-- <img src="Pictures/jeu1.jpg" alt="Joueurs à l'ADJ" /> -->
+            <div class="img-placeholder">🎲<p>Photo à venir</p></div>
+            <div class="img-caption">🏔️ Valmeinier, 1 900 m</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LES JEUX -->
+  <section id="jeux" class="section-dark">
+    <div class="container">
+      <h2 class="section-title reveal">La <em>Ludothèque</em></h2>
+      <p class="section-intro reveal">Des centaines de jeux dans tous les styles, accessibles pendant les séjours. Stratégie, coopératif, ambiance, famille, jeux de rôle… il y en a pour chaque joueur et chaque envie.</p>
+      <div class="jeux-cta reveal">
+        <a href="https://www.myludo.fr/#!/home" target="_blank" rel="noopener" class="btn-jeux-text-link">
+          Explorer la bibliothèque de jeux sur MyLudo
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIE -->
+  <section id="galerie">
+    <div class="container">
+      <h2 class="section-title reveal">Galerie</h2>
+      <p class="section-intro reveal">Des moments inoubliables au fil des séjours.</p>
+      <div class="gallery-grid">
+        <!-- Remplacer par <img src="Pictures/jeuX.jpg" alt="..." /> -->
+        <div class="gallery-item reveal">🎲</div>
+        <div class="gallery-item reveal">🏔️</div>
+        <div class="gallery-item reveal">🃏</div>
+        <div class="gallery-item reveal">🤝</div>
+        <div class="gallery-item reveal">♟️</div>
+        <div class="gallery-item reveal">🌲</div>
+        <div class="gallery-item reveal">😄</div>
+      </div>
+      <p class="gallery-caption reveal"><em>Les photos de vos aventures ludiques arrivent bientôt…</em></p>
+    </div>
+  </section>
+
+  <!-- ÉQUIPE -->
+  <section id="equipe" class="section-dark">
+    <div class="container equipe-container">
+      <h2 class="section-title reveal">L'<em>Équipe</em></h2>
+      <p class="section-intro reveal">L'ADJ vit grâce à l'engagement de ses bénévoles, tous passionnés de jeu et amoureux de Valmeinier. Fondée par <strong>Stéphane Burgunder</strong> en 2002, l'association est animée par Michel, Fabrice, Jean-Jacques, Flo, Duncan, et bien d'autres.</p>
+    </div>
+  </section>
+
+  <!-- INFOS PRATIQUES + SÉJOURS -->
+  <section id="infos">
+    <div class="container">
+      <h2 class="section-title reveal">Informations <em>pratiques</em></h2>
+
+      <div class="infos-grid">
+
+        <!-- Coordonnées -->
+        <div class="info-card reveal">
+          <h3>📍 Adresse</h3>
+          <p>L'Antre du Joueur<br>220 Place de Roche Noire<br>73450 Valmeinier — Savoie</p>
+          <div class="info-divider"></div>
+          <h3>📅 Séjours Altitude Jeux</h3>
+          <ul class="sejours-list">
+            <li>☀️ <strong>Été</strong> — séjour estival</li>
+            <li>🌲 <strong>Décembre</strong> — séjour hivernal</li>
+            <li>⛷️ <strong>Fin de saison</strong> — clôture d'hiver</li>
+          </ul>
+          <p class="info-note">Jeux accessibles toute la journée et en soirée · Ludothèque complète à disposition</p>
+          <a href="https://leshautsdevalmeinier.fr/" target="_blank" rel="noopener" class="btn-reserver">
+            🏨 Réserver à la résidence Les Hauts de Valmeinier
+          </a>
+        </div>
+
+        <!-- Liens & rejoindre -->
+        <div class="info-card reveal">
+          <h3>🔗 Liens utiles</h3>
+          <div class="links-grid">
+            <a href="https://www.facebook.com/people/Lantre-Du-Joueur-Valmeinier/100068738522837/" target="_blank" rel="noopener" class="link-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              Facebook ADJ
+            </a>
+            <a href="https://www.valmeinier.com/" target="_blank" rel="noopener" class="link-btn">🌐 Valmeinier.com</a>
+            <a href="https://boardgamegeek.com/" target="_blank" rel="noopener" class="link-btn">🎲 BoardGameGeek</a>
+            <a href="https://www.myludo.fr/#!/home" target="_blank" rel="noopener" class="link-btn">🃏 MyLudo</a>
+            <a href="https://leshautsdevalmeinier.fr/" target="_blank" rel="noopener" class="link-btn">🏨 Les Hauts de Valmeinier</a>
+          </div>
+          <div class="info-divider"></div>
+          <h3>🎲 Rejoignez l'aventure !</h3>
+          <p>L'ADJ est ouverte à toutes et à tous, débutants ou confirmés, adultes ou enfants. Venez nous rejoindre à Valmeinier !</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="images/logonbg.png" alt="L'Antre du Joueur" class="footer-logo" />
+        <p>Association de passionnés de jeux de société, fondée en 2002 à Valmeinier, Savoie. Ouverte à tous.</p>
+        <div class="footer-links">
+          <a href="https://www.facebook.com/people/Lantre-Du-Joueur-Valmeinier/100068738522837/" target="_blank" rel="noopener">Facebook →</a>
+          <a href="https://www.valmeinier.com/" target="_blank" rel="noopener">Valmeinier →</a>
+          <a href="https://boardgamegeek.com/" target="_blank" rel="noopener">BoardGameGeek →</a>
+          <a href="https://www.myludo.fr/#!/home" target="_blank" rel="noopener">MyLudo →</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#histoire">Notre histoire</a></li>
+          <li><a href="#jeux">La ludothèque</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#equipe">L'équipe</a></li>
+          <li><a href="#infos">Informations pratiques</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>220 Place de Roche Noire</li>
+          <li>73450 Valmeinier</li>
+          <li>Savoie, France</li>
+          <li style="margin-top:.8rem;"><a href="https://www.facebook.com/people/Lantre-Du-Joueur-Valmeinier/100068738522837/" target="_blank" rel="noopener">Page Facebook →</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 L'Antre du Joueur · Association loi 1901 · Valmeinier, Savoie</span>
+      <span>Fondée en 2002 par Stéphane Burgunder 🎲</span>
+    </div>
+  </footer>
+
+  <script src="script.js?v=2"></script>
+</body>
+</html>
